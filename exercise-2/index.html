@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>练习-2：HTML表格</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">&nbsp;</th>
+                <th>Column1</th>
+                <th>Column2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Row1</td>
+                <td>Row1-1</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Row1-2</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Row1-3</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
 
-    <!--说明：在此添加一个table，内容请对比mockups文件夹下面的mockup-->
-    <!--table已经添加default 样式，只需完成HTML-->
-    <!--合理使用table, thead, tbody, tfoot, tr, th, td标签-->
-    <!--合理使用colspan, rowspan属性-->
-
+            <tr>
+                <td colspan="2">Row2</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2">Row3</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
+
 </html>
